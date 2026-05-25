@@ -1,0 +1,32 @@
+# This template intentionally ships NO Python code.
+# These ignores exist so the scaffolding stays clean as you add your own work.
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Excel / data artifacts (never commit real data)
+*.xlsx
+*.xlsm
+*.xlsb
+*.csv
+*.parquet
+
+# Secrets / local config
+.env
+*.local
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.idea/
+
+# Keep .vscode/mcp.json tracked (shared config) but ignore other local VS Code state
+.vscode/*
+!.vscode/mcp.json

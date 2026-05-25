@@ -1,0 +1,17 @@
+{
+  "$comment": [
+    "Optional, explicit declaration of the Oracle SQLcl MCP server.",
+    "For GitHub Copilot this is usually NOT required: the Oracle SQL Developer",
+    "extension (>= 25.2.0) auto-registers the SQLcl MCP server once you have a",
+    "saved DB connection. Keep this file for non-Copilot agents, for teammates,",
+    "or to make the dependency explicit. Update 'command' to your SQLcl path.",
+    "The server runs locally; your DB data never leaves your machine."
+  ],
+  "servers": {
+    "sqlcl": {
+      "type": "stdio",
+      "command": "C:\\path\\to\\sqlcl\\bin\\sql.exe",
+      "args": ["-mcp"]
+    }
+  }
+}
